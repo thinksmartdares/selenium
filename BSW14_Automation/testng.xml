@@ -1,0 +1,10 @@
+<suite name="RegressionSuite" parallel="none">
+  <test name="ActitimeTest">
+    <classes>
+      <class name="com.projectname.testcases.AT_Login_Valid"/>
+      <class name="com.projectname.testcases.AT_Login_Invalid"/>
+      <class name="com.projectname.testcases.AT_Billing_Create"/>
+      <class name="com.projectname.testcases.AT_Billing_Delete"/>
+    </classes>
+  </test>
+</suite>
